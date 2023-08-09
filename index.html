@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <!-- <i class='bx bx-menu'></i> -->
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span>Kevin</span><br>jen From INDIA</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------About---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                  <h1 class="sub-tittle">About Me</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident repudiandae vitae in blanditiis minima aliquid voluptatem ad reiciendis, ipsa placeat nihil maxime! Odit ratione incidunt ullam molestias debitis dolores, magnam similique minus totam atque?</p>
+                  <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('skills')">Education</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                        <li><span>Web development</span><br>Web app development</li>
+                        <li><span>App development</span><br>Building Android/ios apps</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-current</span><br> UI/UX Design Traning at ET Institude</li>
+                        <li><span>2019-2021</span><br>Team lead at Starapp LLC.</li>                        
+                        <li><span>2017-2019</span><br>UI?UX Design Executive at coin Digital Ltd.</li>                        
+
+                        <li><span>2016-2017</span><br>Intership at ekart eCommerce</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span><br>UI/UX Design Traning at ET Institute</li>
+                        <li><span>2016</span><br>MBA from MIT Banglore</li>
+                        <li><span>App development</span><br>BBA from ISM Banglore</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------srvices----- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code'></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium voluptates atque porro beatae neque magni quia eius illo non corporis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bx-crop'></i>
+                    <h2>UX/UI Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium voluptates atque porro beatae neque magni quia eius illo non corporis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bx-expand-horizontal'></i>
+                    <h2>App development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium voluptates atque porro beatae neque magni quia eius illo non corporis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <!-- --------------porfolio------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you yo the talented people around the world download it from play store</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music app App</h3>
+                        <p>The app connects you yo the talented people around the world download it from play store</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you yo the talented people around the world download it from play store</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -------contact----- -->
+    <div id="contact">
+       <div class="container">
+     <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title"> Contact Me</h1>
+            <p> <i class='bx bxs-send'></i>contact@example.com</p>
+            <p> <i class='bx bxs-phone'></i>0123456789</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        <a href="images/my-cv.pdf" download class="btn btn2">Dowload Cv</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+            </form>
+        </div>
+     </div>
+     </div>
+     <div class="copyright">
+        <p>Copyright @ Kevin.Made with <i class='bx bxs-heart'></i> by Rajveer Tutorials</p>
+     </div>
+  </div>
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+               tablink.classList.remove("active-link");
+            }
+            for(tabcontents of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
